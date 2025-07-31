@@ -1,3 +1,4 @@
+//repository layer, connect to control layer, also if inserting from application then connect to application also
 package com.group1.springProject;
 
 import org.springframework.data.jpa.repository.JpaRepository;//inbuilt interface interacts with db
