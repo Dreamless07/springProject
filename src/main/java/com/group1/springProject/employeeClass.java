@@ -1,3 +1,4 @@
+//class
 package com.group1.springProject;
 
 import jakarta.persistence.*;
@@ -12,8 +13,10 @@ public class employeeClass {
     @Id//for primary key, below the ID annotation, the variable (here id) will become primary key
     @GeneratedValue(strategy = GenerationType.IDENTITY)//Flow of primary key, maintains: order, sequence or auto
     private long id;
+
     @Column(name = "name")//create column name
     private String name;
+
     @Column(name = "address")//same
     private String address;
 }
