@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;//inbuilt interface
 import org.springframework.stereotype.Repository;
 
 @Repository//because a repository layer
-public interface empdetailsRepository extends JpaRepository<employeeClass, Long> {//JpaRepository is inbuilt interface, contains table name(class name) and primary key datatyoe
+public interface empdetailsRepository extends JpaRepository<employeeClass, Long> {//JpaRepository is inbuilt interface, contains table name(class name) and primary key datatyoe(wrapper class)
 }
