@@ -1,4 +1,4 @@
-//class
+//entity class
 package com.group1.springProject;
 
 import jakarta.persistence.*;
