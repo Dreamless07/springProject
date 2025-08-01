@@ -20,7 +20,7 @@ public class empdetailsController {
 
     // POST/INSERT which connects to postman
     @PostMapping//for insertion
-    public employeeClass inserion(@RequestBody employeeClass empob){ //create a method to insert, use arguments and convert to object to insert multiple attributes
+    public employeeClass insertion(@RequestBody employeeClass empob){ //create a method to insert, use arguments and convert to object to insert multiple attributes
         return empdetailsRepository.save(empob);//for insertion and update use save, @RequestBody coverts JSON to Object
     }
 
